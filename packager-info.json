@@ -1,0 +1,9 @@
+{
+  "expoServerPort": 19000,
+  "packagerPort": 19000,
+  "expoServerNgrokUrl": "https://nc-kt3.hamshusi.blueapp.exp.direct",
+  "packagerNgrokUrl": "https://nc-kt3.hamshusi.blueapp.exp.direct",
+  "ngrokPid": 29264,
+  "packagerPid": null,
+  "webpackServerPort": null
+}
