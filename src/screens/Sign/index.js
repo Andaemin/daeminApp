@@ -61,8 +61,8 @@ const Sign = ({ navigation }) => {
         navigation.setOptions({
             headerShown: false,
         });
-        __DEV__ && setId("chamchi0216@gmail.com");
-        __DEV__ && setPw("!mhee7173");
+        __DEV__ && setId("");
+        __DEV__ && setPw("");
 
         authListener();
     }, []);
@@ -102,7 +102,7 @@ const Sign = ({ navigation }) => {
                         <TextInput
                             ref={inputRefs[0]}
                             style={[styles.input, { marginBottom: 10 }]}
-                            placeholder="수아양"
+                            placeholder=""
                             value={id}
                             onChangeText={(text) =>
                                 handleOnChangeText(setId, text)
@@ -115,7 +115,7 @@ const Sign = ({ navigation }) => {
                         <TextInput
                             ref={inputRefs[1]}
                             style={styles.input}
-                            placeholder="사랑행💘"
+                            placeholder=""
                             value={pw}
                             onChangeText={(text) =>
                                 handleOnChangeText(setPw, text)
